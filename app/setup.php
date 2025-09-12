@@ -77,6 +77,10 @@ add_action('after_setup_theme', function () {
      */
     register_nav_menus([
         'primary_navigation' => __('Primary Navigation', 'sage'),
+        'footer_quick_links' => __('Footer Quick Links', 'sage'),
+        'footer_contact_us' => __('Footer Contact Us', 'sage'),
+        'footer_office_hours' => __('Footer Office Hours', 'sage'),
+
     ]);
 
     /**
@@ -129,6 +133,17 @@ add_action('after_setup_theme', function () {
      */
     add_theme_support('customize-selective-refresh-widgets');
 }, 20);
+
+
+add_action('after_setup_theme', function () {
+  add_theme_support('custom-logo', [
+    'height'      => 120,   
+    'width'       => 240,    
+    'flex-height' => true,
+    'flex-width'  => true,
+    'unlink-homepage-logo' => false,  
+  ]);
+});
 
 /**
  * Register the theme sidebars.

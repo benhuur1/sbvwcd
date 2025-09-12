@@ -1,0 +1,50 @@
+ 
+@layer components {
+    h1 {
+        @apply font-heading text-[10rem] text-green-900 ;
+    }
+
+    h2 {
+        @apply font-heading text-9xl text-green-900 ;
+    }
+
+    h3 {
+        @apply font-heading text-7xl text-green-900 ;
+    }
+
+    h4 {
+        @apply font-heading text-5xl text-green-900 ;
+    }
+
+    .subhead-l {
+        @apply font-body text-4xl text-green-900 ;
+    }
+
+    .subhead-m {
+        @apply font-heading text-3xl font-light text-green-900 ;
+    }
+
+    .subhead-s {
+        @apply font-heading text-2xl font-medium text-green-900 ;
+    }
+
+    .text-l {
+        @apply font-body text-xl text-green-900 ;
+    }
+
+    .text-m {
+        @apply font-body text-green-900 ;
+    }
+
+    .text-s {
+        @apply font-body text-xs text-green-900 ;
+    }
+
+    .medium-subhead-bold {
+        @apply font-heading text-3xl font-medium text-neutral-100 ;
+    }
+
+    a {
+        text-decoration: none !important;
+    }
+}

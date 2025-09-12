@@ -1,3 +1,14 @@
 @theme {
-    
+
+    --font-body: "Lexend Deca", sans-serif;
+    --font-heading: "Taviraj", serif;
+
+    --color-green-400: #B8C2AB;
+    --color-green-500: #8C967E;
+    --color-green-600: #5C6E44;
+    --color-green-900: #354126;
+
+    --color-neutral-100:#F7F6F4; 
+    --color-neutral-700:#4C463F; 
 }
+ 
