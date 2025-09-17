@@ -11,5 +11,7 @@ import '../css/blocks.css';
   
 console.log('🎨 Auto Blocks - System loaded!');
 // AUTO-IMPORTS: Created blocks are automatically imported below this line
+import '../blocks/container-progressive-counter/block.jsx';
+import '../blocks/hero-v1/block.jsx';
 import '../blocks/primary-button/block.jsx';
 import '../blocks/block-name/block.jsx';

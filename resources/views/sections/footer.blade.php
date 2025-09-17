@@ -1,6 +1,6 @@
 <footer class="bg-neutral-700  py-20 px-4">
     <div class="flex flex-col container mx-auto">
-        <div class="flex justify-between items-center border-b pb-5 border-neutral-100">
+        <div class="flex justify-between gap-10 lg:gap-0 flex-col lg:flex-row lg:items-center border-b pb-5 border-neutral-100">
             <h2 class="text-neutral-100">Partner with Us</h2>
             <x-button
                 link="#" 
@@ -12,7 +12,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-20 gap-10">
                 <div>
                     <h3 class="medium-subhead-bold mb-10">SBVWCD</h3>
-                    <p class="text-neutral-100">1630 West Redlands Blvd. Suite A Redlands, California 92373</p>
+                    <p class="text-neutral-100 max-w-[300px]">1630 West Redlands Blvd. Suite A Redlands, California 92373</p>
                 </div>
                 <div>
                     <h3 class="medium-subhead-bold mb-10">Quick Links</h3>
@@ -31,9 +31,9 @@
             </div>
         </div>
 
-        <div class="flex justify-between items-center border-neutral-100 border-t  pt-8">
+        <div class="flex justify-between lg:items-center flex-col lg:flex-row gap-10 lg:gap-0 border-neutral-100 border-t  pt-8">
             <p class="text-neutral-100"> Copyright © {{ date('Y') }} SBVWCD. All Rights Reserved.</p>
-            <div class="flex gap-2 text-neutral-100">
+            <div class="flex flex-col lg:flex-row gap-2 text-neutral-100">
                 <p>Term & Conditions</p>
                 -
                 <p>Privacy Policy</p>

@@ -1,5 +1,7 @@
 @theme {
 
+    --container: " max-w-[1120px] mx-auto px-4 ";
+
     --font-body: "Lexend Deca", sans-serif;
     --font-heading: "Taviraj", serif;
 

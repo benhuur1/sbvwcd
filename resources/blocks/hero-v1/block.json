@@ -1,0 +1,11 @@
+{
+    "name": "sage/hero-v1",
+    "title": "Hero V1",
+    "category": "design",
+    "icon": "block-default",
+    "description": "Custom Hero V1 block",
+    "textdomain": "sage",
+    "editorScript": "file:./block.jsx",
+    "style": "file:./block.css",
+    "render": "file:./block.php"
+}

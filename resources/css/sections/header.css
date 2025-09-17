@@ -1,24 +1,21 @@
-.nav-primary {
-    display: flex;
-}
-
+ 
 .menu-primary-navigation-container {
     display: flex;
     align-items: center;
 }
 
-.nav {
+.menu-primary-navigation-container .nav {
     display: flex;
     gap: 58px;        
 }
 
-.menu-item a {
+.menu-primary-navigation-container .menu-item a {
     font-family: var(--font-heading);
     color: var(--color-green-600);
     font-size: 1.125rem;
 }
 
-.menu-item.current-menu-item a {
+.menu-primary-navigation-container .menu-item.current-menu-item a {
     color: var(--color-neutral-700);
     font-style: italic;
 }

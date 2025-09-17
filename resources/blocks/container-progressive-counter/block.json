@@ -1,0 +1,57 @@
+{
+    "name": "sage/container-progressive-counter",
+    "title": "Container Progressive Counter",
+    "category": "design",
+    "icon": "block-default",
+    "description": "Custom Container Progressive Counter block",
+    "textdomain": "sage",
+    "editorScript": "file:./block.jsx",
+    "style": "file:./block.css",
+    "render": "file:./block.php",
+    "attributes": {
+        "mainTitle": {
+            "type": "string",
+            "default": "Nossos Números"
+        },
+        "counter1Number": {
+            "type": "number",
+            "default": 100
+        },
+        "counter1Title": {
+            "type": "string",
+            "default": "Projetos"
+        },
+        "counter2Number": {
+            "type": "number",
+            "default": 50
+        },
+        "counter2Title": {
+            "type": "string",
+            "default": "Clientes"
+        },
+        "counter3Number": {
+            "type": "number",
+            "default": 5
+        },
+        "counter3Title": {
+            "type": "string",
+            "default": "Anos"
+        },
+        "counter4Number": {
+            "type": "number",
+            "default": 1000
+        },
+        "counter4Title": {
+            "type": "string",
+            "default": "Horas"
+        },
+        "counter5Number": {
+            "type": "number",
+            "default": 25
+        },
+        "counter5Title": {
+            "type": "string",
+            "default": "Prêmios"
+        }
+    }
+}

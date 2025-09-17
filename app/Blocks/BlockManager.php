@@ -11,6 +11,8 @@ class BlockManager
         // Blocks are automatically added here when you run: php artisan make:block block-name
         'block-name',
         'primary-button',
+        'hero-v1',
+        'container-progressive-counter',
     ];
 
     /**
