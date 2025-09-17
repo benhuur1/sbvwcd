@@ -2,5 +2,9 @@
 @source "../views/";
 @source "../../app/";
 @import "./tailwind.conf.css";
+
+@import "./global/helpers.css";
 @import "./global/typography.css";
+
+@import "./sections/footer.css";
 @import "./sections/header.css";

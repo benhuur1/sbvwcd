@@ -10,6 +10,10 @@ class BlockManager
     protected array $blocks = [
         // Blocks are automatically added here when you run: php artisan make:block block-name
         'two-columns-content',
+        'block-name',
+        'primary-button',
+        'hero-v1',
+        'container-progressive-counter',
     ];
 
     /**
