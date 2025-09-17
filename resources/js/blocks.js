@@ -8,8 +8,7 @@
 // Import global block styles
 import '../css/blocks.css';
 
-  
-console.log('🎨 Auto Blocks - System loaded!');
 // AUTO-IMPORTS: Created blocks are automatically imported below this line
-import '../blocks/primary-button/block.jsx';
-import '../blocks/block-name/block.jsx';
+import '../blocks/two-columns-content/block.jsx';
+
+console.log('🎨 Auto Blocks - System loaded!');

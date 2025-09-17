@@ -1,0 +1,24 @@
+{
+  "name": "sage/two-columns-content",
+  "title": "Two Columns Content",
+  "category": "design",
+  "icon": "columns",
+  "description": "Bloco com layout de duas colunas: texto, imagem e badge",
+  "textdomain": "sage",
+  "editorScript": "file:./block.jsx",
+  "style": "file:./block.css",
+  "render": "file:./block.php",
+  "attributes": {
+    "titulo": { "type": "string" },
+    "descricao": { "type": "string" },
+    "imagemUrl": { "type": "string" },
+    "imagemAlt": { "type": "string" },
+    "badgeUrl": { "type": "string" },
+    "badgeAlt": { "type": "string" }
+  },
+  "supports": {
+    "align": false,
+    "html": false,
+    "jsx": true
+  }
+}
